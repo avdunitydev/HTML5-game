@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Gamedev Phaser Workshop - lesson 01: Initialize the framework</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&subset=cyrillic,cyrillic-ext');
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    #mainActivity{
+      width: 100vw;
+      height: 100vh;
+    }
+    #mainActivity>canvas{
+      /* margin: 0 auto; */
+    }
+    .button-close{
+      position: absolute;
+      right: 10px;
+    }
+    .button-close>img{
+      height: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <a class="button-close" href="../../index.html" title="close"><img src="images/Close Button.png" alt="close"></a>
+  <div id="mainActivity"></div>
+  <!-- /** SCRIPTS **/ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/2.6.2/phaser.min.js"></script>
+  <script src="games-01.js"></script>
+</body>
+
+</html>
